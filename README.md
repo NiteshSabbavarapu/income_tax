@@ -1,12 +1,27 @@
 # income_tax
-This code deducts a fixed amount from the annual income (50000) and then calculates the tax based on different income brackets. Here's how it works:
+This code calculates the income tax you need to pay based on your annual income. It follows these steps:
 
-The user is prompted to input their annual income.
+You input your annual income.
 
-The script subtracts 50000 from the annual income to get the final_income.
+It subtracts 50,000 from your income to account for deductions.
 
-It then checks which income bracket final_income falls into and calculates the tax accordingly. The tax rates increase as the income bracket goes up.
+If your income is less than or equal to 250,000, your tax is 0.
 
-The calculated tax amount is printed for the respective income bracket.
+If your income falls between 250,000 and 500,000, you pay 5% tax on the amount over 250,000.
 
-This  code appears to be well-structured and correctly calculates the income tax for different income ranges. If you have any specific questions or need further assistance with this code, please feel free to ask.
+If your income is between 500,000 and 750,000, you pay 10% tax on the amount over 500,000 plus 5% of 250,000.
+
+If your income is between 750,000 and 1,000,000, you pay 15% tax on the amount over 750,000 plus 10% of 250,000 and 5% of 250,000.
+
+If your income is between 1,000,000 and 1,250,000, you pay 20% tax on the amount over 1,000,000, 10% of 250,000, 5% of 250,000, and 15% of 250,000.
+
+If your income is between 1,250,000 and 1,500,000, you pay 25% tax on the amount over 1,250,000, 10% of 250,000, 5% of 250,000, 15% of 250,000, and 20% of 250,000.
+
+If your income is above 1,500,000, you pay 30% tax on the amount over 1,500,000, 10% of 250,000, 5% of 250,000, 15% of 250,000, 20% of 250,000, and 25% of 250,000.
+
+The code calculates the tax amount based on these rules and prints the result for your income level.
+
+
+
+
+
