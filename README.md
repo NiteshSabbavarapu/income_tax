@@ -22,6 +22,9 @@ If your income is above 1,500,000, you pay 30% tax on the amount over 1,500,000,
 The code calculates the tax amount based on these rules and prints the result for your income level.
 
 
-
+to calculate your tax then press this link:
+                                
+                                
+                    https://onecompiler.com/python/3zspnma2k
 
 
